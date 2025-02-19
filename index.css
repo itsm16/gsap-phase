@@ -20,7 +20,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .inner-main{
@@ -35,9 +34,6 @@ body{
     line-height: 10px;
     -webkit-text-stroke: none;
 }
-
-
-
 
 .heading{
     font-family: 'Druk Wide', sans-serif;
@@ -85,11 +81,30 @@ body{
     line-height: 50px;
 }
 
-
+.bottom-sub{
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    width: max-content;
+}
 
 .img-col1-1{
     top:250px;
     left: 80px;
+}
+
+.position-1-1{
+    top: 226px;
+}
+
+
+.img-col1-2{
+    bottom: 250px;
+    left: 250px;
+}
+
+.position-1-2{
+    top: 209px;
 }
 
 .img-col2-1{
@@ -97,14 +112,22 @@ body{
     right: 740px;
 }
 
-.img-col1-2{
-    bottom: 250px;
-    left: 250px;
+.position-2-1{
+    top: 205px;
 }
+
 
 .img-col2-2{
     bottom: 300px;
     right: 400px;
+}
+
+.sub-2-2{
+    width: max-content;
+}
+
+.position-2-2{
+    top: 216px;
 }
 
 @media (max-width : 768px) {
