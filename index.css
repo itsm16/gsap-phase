@@ -37,7 +37,7 @@ body{
 
 .heading{
     font-family: 'Druk Wide', sans-serif;
-    z-index: 5;
+    z-index: 15;
     font-size: 12vh;
     display: flex;
     align-items: center;
@@ -48,7 +48,7 @@ body{
 .heading-container{
     height: 50%;
     line-height: 12vh;
-    z-index: 5;
+    z-index: 15;
     text-align: center;
 }
 
@@ -131,7 +131,48 @@ body{
 }
 
 @media (max-width : 768px) {
-    body{
-        background-color: red;
+    .heading{
+        font-size: 2vh;
+        line-height: 20px;
+    }
+
+    .heading-container{
+        z-index: 15;
+    }
+
+    .image{
+        display: hidden;
+        z-index: 0;
+    }
+}
+
+@media (max-width: 1400px) {
+    .heading{
+        font-size: 9vh;
+        line-height: 80px;
+    }
+
+    .heading-container{
+        z-index: 15;
+    }
+    
+    .img-col1-1{
+        top:100px;
+        left: 25px;
+    }
+
+    .img-col2-1{
+        top:120px;
+        right: 400px;
+    }
+
+    .img-col1-2{
+        bottom: 300px;
+        left: 200px;
+    }
+
+    .img-col2-2{
+        bottom: 350px;
+        right: 400px;
     }
 }
